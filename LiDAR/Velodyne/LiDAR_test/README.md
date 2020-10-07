@@ -42,6 +42,10 @@ In Global Option tab, type the channel what you want in Fixed Frame, (ex. map --
 
 At PointClou2 tab, change the value of Topic:/velodyne_points
 
+#### Result
+<img src="https://user-images.githubusercontent.com/72431755/95299366-8e56f400-08b8-11eb-8edd-5c5225037dbd.png" width="50%" height="50%"></img>
+
+
 ## Logging Lidar message.
 ### To log
 ```bash
