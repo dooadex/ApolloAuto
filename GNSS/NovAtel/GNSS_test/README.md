@@ -1,17 +1,16 @@
 # GNSS test with NovAtel
 This is for test the GNSS system is operated well in LINUX with NovAtel product.
 
+
+## Prerequisites
+### Basic setup
+If you didn't do anything yet with NovAtel, refer to (https://github.com/dooadex/Autonomous-Driving/blob/master/GNSS/NovAtel/basic_setup.md)
+### Binary mode
+Set getting data format of Novatel as Binary.
 ### Environment
 LINUX, ROS1
 
 NovAtel: NovAtel Receiver(I used PwrPak7D), Receiver(Anttena)
-
-
-### Prerequisites
-#### Basic setup
-If you didn't do anything yet with NovAtel, refer to (https://github.com/dooadex/Autonomous-Driving/blob/master/GNSS/NovAtel/basic_setup.md)
-#### Binary mode
-Set getting data format of Novatel as Binary.
 
 
 ## Test
