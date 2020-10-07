@@ -28,6 +28,6 @@ Connect the receiver of NovAtel with PC using 'USB port'.
 ### Run NovAtel Connect
 To change the settings on a COM port, use the SERIALCONFIG command. For example:
 
-To change the data rate of COM2 to 115200, enter:
+To change the data rate of COM2 to 115200,
 
-<code>SERIALCONFIG COM2 115200</code>
+enter: <code>SERIALCONFIG COM2 115200</code>
