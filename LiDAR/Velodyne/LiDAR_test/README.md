@@ -1,15 +1,25 @@
 ## Note
-Velodyne is
+Velodyne LiDAR is connected to an Ethernet port.
 
+So you have to configure some network setting.
 
 ## Prerequisites
-ROS1
+Ubuntu, ROS1
 
+## Configure for Ethernet communication
 
-## Setting up Velodyne
+### Configure Network setting of Ubuntu
 You can refer to (http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16) for detail.
 
-### Configure communication setting
+Access the Gnome Menu (Super key), type "Networks Connections" then run it. Select the connection's name and click on "edit". Choose the IPV4 Settings tab and change the "Method" field to "Manual".
+
+Click on "add" and set the IP address field to 192.168.1.100 (“100” can be any number except in a range between 1 and 254, except 201).
+
+Set the “Netmask” to 255.255.255 and the "Gateway" to 0.0.0.0.
+
+To finish it click on "save".
+
+### setting communication setting
 At /opt/ros/melodic/share/velodyne_pointcloud/launch
 
 edit the launch file what you want like 'VLP16_points.launch'.
@@ -20,7 +30,7 @@ for example:
 
 <br>
 
-Join 192.168.1.101 through web browser, and check IP/PORT of Velodne Lidar. 
+Join 192.168.1.100 through web browser, and check IP/PORT of Velodne Lidar. 
 
 &nbsp; // ("101" can be any number except in a range between 1 and 254, except 201)
 
