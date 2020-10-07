@@ -1,4 +1,4 @@
 
-NTRIPClient.exe is English.
+'NTRIPClient.exe' is English.
 
-NtripClient_v2.1.zip is Korean.
+'NtripClient_v2.1.zip' is Korean.
