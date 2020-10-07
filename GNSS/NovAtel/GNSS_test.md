@@ -1,6 +1,5 @@
 # Purpose
-This is for test the GNSS system is operated well in LINUX.
-
+This is for test the GNSS system is operated well in LINUX with NovAtel product.
 
 
 # Environment
