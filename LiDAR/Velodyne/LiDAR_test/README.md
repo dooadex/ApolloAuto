@@ -26,8 +26,6 @@ Join 192.168.1.101 through web browser, and check IP/PORT of Velodne Lidar.
 
 for example: \<ip 203, port 2370 \>
 
--------
-
 ## Test 
 ### velodyne launch files to test
 ```bash
@@ -38,13 +36,20 @@ roslaunch velodyne_pointcloud VLP16_points.launch
 ```bash
 rviz
 ```
-## Click add, choose pointcloud2, in Global Option tab, type the channel what you want ## in Fixed Frame (ex. map --> /velodyne).
-## At PointClou2 tab, change the value of Topic:/velodyne_points
+Click add button, then choose pointcloud2.
 
-# 5. How to log the Lidar message.
-## To log
+In Global Option tab, type the channel what you want in Fixed Frame, (ex. map --> /velodyne).
+
+At PointClou2 tab, change the value of Topic:/velodyne_points
+
+## Logging Lidar message.
+### To log
+```bash
 rosbag record -a
-## To play logged message
+```
+### To play logged message
+```bash
 roscore
 rosbag play .bag
 rostopic echo /velodyne_points
+```
