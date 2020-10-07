@@ -11,9 +11,16 @@ Refer to Apollo Auto official site. (https://github.com/ApolloAuto)
 
 # How to run
 At ${HOME}
+```bash
+git clone https://github.com/dooadex/ApolloAuto.git
 
-`git clone https://github.com/dooadex/ApolloAuto.git`
+cd ApolloAuto/apollo5.0_autoinstall/
 
-`cd ApolloAuto/apollo5.0_autoinstall/`
-
-`./autoinstall_labtest.sh`
+./autoinstall_labtest.1sh
+```
+```bash
+reboot
+```
+```bash
+./autoinstall_labtest.2sh
+```
