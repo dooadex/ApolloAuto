@@ -16,11 +16,11 @@ git clone https://github.com/dooadex/ApolloAuto.git
 
 cd ApolloAuto/apollo5.0_autoinstall/
 
-./autoinstall_labtest.1sh
+./autoinstall_labtest1.sh
 ```
 ```bash
 reboot
 ```
 ```bash
-./autoinstall_labtest.2sh
+./autoinstall_labtest2.sh
 ```
