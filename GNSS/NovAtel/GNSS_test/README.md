@@ -50,7 +50,7 @@ rostopic list
 rostopic echo /fix
 ```
 
-## How to log the GNSS message.
+## Logging GNSS message.
 ### To log
 ```bash
 rosbag record -a
