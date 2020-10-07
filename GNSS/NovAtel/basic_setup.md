@@ -1,6 +1,8 @@
 ## NovAtel basic setup
 This is for basic setup to use NovAtel product.
 
+You can refer to (https://docs.novatel.com/oem7/Content/PDFs/PwrPak7_Installation_Operation_Manual.pdf)
+
 To use Serial Port Communications, you have to configure properly.
 
 The receiver's default port settings are:
@@ -24,3 +26,8 @@ Install Novatel Connect and USB Driver at (https://novatel.com/support/firmware-
 Connect the receiver of NovAtel with PC using 'USB port'.
 
 ### Run NovAtel Connect
+To change the settings on a COM port, use the SERIALCONFIG command. For example:
+
+To change the data rate of COM2 to 115200, enter:
+
+<code>SERIALCONFIG COM2 115200</code>
