@@ -32,12 +32,3 @@ sudo apt-cache madison docker-ce
 
 sudo apt-get install docker-ce=5:19.03.12~3-0~ubuntu-xenial docker-ce-cli=5:19.03.12~3-0~ubuntu-xenial containerd.io
 
-docker run hello-world
-
-# WARNING: Error loading config file: /home/user/.docker/config.json -stat /home/user/.docker/config.json: permission denied
-# at ~/.docker/
-# chown "$USER":"$USER" /home/"$USER"/.docker -R
-# chmod g+rwx "$HOME/.docker" -R
-
-sudo systemctl enable docker
-
