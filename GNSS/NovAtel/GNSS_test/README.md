@@ -1,4 +1,4 @@
-## GNSS test with NovAtel
+# GNSS test with NovAtel
 This is for test the GNSS system is operated well in LINUX with NovAtel product.
 
 ### Environment
