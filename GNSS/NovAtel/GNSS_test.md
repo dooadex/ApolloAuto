@@ -1,11 +1,9 @@
-# Purpose
+## Purpose
 This is for test the GNSS system is operated well in LINUX with NovAtel product.
 
-
-# Environment
+### Environment
 LINUX, ROS1
 
 NovAtel: NovAtel Receiver(I used PwrPak7D), Receiver(Anttena)
 
-
-## Install 
+### Install Novatel Connect and USB Driver
