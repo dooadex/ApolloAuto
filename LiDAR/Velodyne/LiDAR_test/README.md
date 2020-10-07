@@ -2,12 +2,12 @@
 Velodyne LiDAR is connected to an Ethernet port.
 
 So you have to configure some network setting.
-
 <br>
+
 ## Prerequisites
 Ubuntu, ROS1
-
 <br>
+
 ## Configure for Ethernet communication
 
 ### Configure Network setting of Ubuntu
@@ -22,8 +22,8 @@ Set the “Netmask” to 255.255.255 and the "Gateway" to 0.0.0.0.
 To finish it click on "save".
 
 <img src ="https://user-images.githubusercontent.com/72431755/95305938-a2ebba00-08c1-11eb-8bf3-1707aabb2a73.png" width="50%" height="50%"></img>
-
 <br>
+
 ### setting communication setting
 At /opt/ros/melodic/share/velodyne_pointcloud/launch
 
