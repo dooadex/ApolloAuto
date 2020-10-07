@@ -1,3 +1,11 @@
+#!/bin/bash
+
+file_path=${HOME}/ApolloAuto/apollo5.0_autoinstall
+
+docker run hello-world
+sudo systemctl enable docker
+
+
 bash ${file_path}/install_set_gcc.sh
 bash ${file_path}/install_nvidia_docker_container_toolkit.sh
 
