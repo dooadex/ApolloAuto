@@ -37,8 +37,6 @@ for example:
 
 Join 192.168.1.100 through web browser, and check IP/PORT of Velodne Lidar. 
 
-&nbsp; // ("101" can be any number except in a range between 1 and 254, except 201)
-
 for example: \<ip 203, port 2370 \>
 <br>
 
