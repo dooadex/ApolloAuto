@@ -1,6 +1,7 @@
 # GNSS test with NovAtel
 This is for test the GNSS system is operated well in LINUX with NovAtel product.
 
+<br>
 
 ## Prerequisites
 ### Basic setup
@@ -12,6 +13,7 @@ LINUX, ROS1
 
 NovAtel: NovAtel Receiver(I used PwrPak7D), Receiver(Anttena)
 
+<br>
 
 ## Test
 
@@ -49,6 +51,8 @@ roslaunch novatel_gps_driver tester_for_usb.launch
 rostopic list
 rostopic echo /fix
 ```
+
+<br>
 
 ## Logging GNSS message.
 ### To log
