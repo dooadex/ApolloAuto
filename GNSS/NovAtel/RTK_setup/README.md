@@ -70,7 +70,7 @@ To check whether it works or not, follow below.
 
 Open NovAtel Connect, and see or click the 'Position' window.
 
-<img src="https://user-images.githubusercontent.com/72431755/95407784-f9f09e00-0958-11eb-8763-244e58fad2e5.png" width="50%" height="50%"></img>
+<img src="https://user-images.githubusercontent.com/72431755/95407784-f9f09e00-0958-11eb-8763-244e58fad2e5.png" width="80%" height="80%"></img>
 
 If the solution type is 'Narrow Integer' or 'Narrow Float', It's fine.
 
