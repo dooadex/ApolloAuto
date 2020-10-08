@@ -38,29 +38,31 @@ Download UDP communication test code (https://github.com/dooadex/Network/tree/ma
 &nbsp;&nbsp;&nbsp; You can test in two different ways. One is to use two computer, and the other one is to user only one computer.
 
 &nbsp;&nbsp;&nbsp; It's so simple. You only need to edit just one line of the code. You can refer to the page what I provided right above for detail.
-<br>
+<br><br>
 
-Open three terminals
+**Open three terminals**
 
-In Terminal A
+**In Terminal A**
 ```bash
 cyber_monitor
 ```
 #### &nbsp;&nbsp;&nbsp;Note
 &nbsp;&nbsp;&nbsp; If you can't run the command, enter ```bash source cyber/setup.bash``` at /apollo in each terminals.
-<br>
+<br><br>
 
-In Terminal B
+**In Terminal B**
 ```bash
 ./bazel-bin/modules/ethernet/ethernet_receiver
 ```
 
-In Terminal C
+**In Terminal C**
 ```bash
 ./bazel-bin/modules/ethernet/ethernet_sender
 ```
+<br>
 
-run 'client' program of UDP_communication.
+**Run 'client' program of UDP_communication.**
+<br>
 
-send message what you want.
+**send message what you want.**
 
