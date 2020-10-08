@@ -37,7 +37,13 @@ Download UDP communication test code (https://github.com/dooadex/Network/tree/ma
 #### &nbsp;&nbsp;&nbsp;Note
 &nbsp;&nbsp;&nbsp; You can test in two different ways. One is to use two computer, and the other one is to user only one computer.
 
-&nbsp;&nbsp;&nbsp; It's so simple. You only need to edit just one line of the code. You can refer to the page what I provided right above for detail.
+&nbsp;&nbsp;&nbsp; It's so simple. You only need to edit just one line of the code.
+
+&nbsp;&nbsp;&nbsp; ```c++ client_addr.sin_addr.s_addr=inet_addr("IP Address"); //IP address where you want to send, for example ("192.168.0.7") ```
+
+&nbsp;&nbsp;&nbsp;  If you set the ("IP Address") value as "127.0.0.1".
+
+You can refer to the page what I provided right above for detail.
 <br><br>
 
 **Open three terminals**
