@@ -62,9 +62,8 @@ cyber_monitor
 <br>
 
 **Run 'client' program of UDP_communication.**
-<br><br>
 
-**send message what you want.**
+send message what you want.
 <br><br>
 
 ## Result
