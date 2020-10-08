@@ -10,7 +10,7 @@ Also, can receive message from other computer through IP Addess and write the me
 
 ## Prerequisites
 Apollo 5.0, Ubuntu16.04, UDP communication test program (It's providing on my github: (https://github.com/dooadex/Network/tree/master/UDP_communication))
-<br>
+<br><br><br>
 
 ## Download and build
 
@@ -62,7 +62,12 @@ cyber_monitor
 <br>
 
 **Run 'client' program of UDP_communication.**
-<br>
+<br><br>
 
 **send message what you want.**
+<br><br>
+
+## Result
+
+<img src="https://user-images.githubusercontent.com/72431755/95432667-ee699b00-0989-11eb-84fc-0f7b489531a1.png" width="50%" height="50%"></img>
 
