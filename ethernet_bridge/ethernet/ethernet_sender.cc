@@ -26,7 +26,7 @@ void MessageCallback(const std::shared_ptr<apollo::ethernet_test::SAMPLE_STRING>
   bzero(&client_addr, sizeof(client_addr)); //Initialize to zero
   client_addr.sin_family=AF_INET;
   client_addr.sin_port=htons(8901); //transform host Byte order into Network Byte order(Big Endian)
-  client_addr.sin_addr.s_addr=inet_addr("192.168.0.4"); //IP address where you want to send
+  client_addr.sin_addr.s_addr=inet_addr("IP Address"); //IP address where you want to send, for example ("192.168.0.7")
   
   const char* sending_data = msg->test_data().c_str();
   ssize_t return_value;
