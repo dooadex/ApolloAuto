@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package apollo.ethernet_test;
+
+message SAMPLE_STRING {
+  optional uint64 timestamp = 1;
+  optional uint64 seq = 2;
+  optional string test_data = 3;
+};

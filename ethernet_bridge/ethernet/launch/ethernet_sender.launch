@@ -1,0 +1,7 @@
+<cyber>
+    <module>
+        <name>ethernet_sender</name>
+        <dag_conf>/apollo/modules/ethernet/dag/ethernet_sender.dag</dag_conf>
+        <process_name>ethernet_sender</process_name>
+    </module>
+</cyber>
