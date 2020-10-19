@@ -9,7 +9,7 @@ Also, can receive message from other computer through IP Addess and write the me
 <br>
 
 ## Prerequisites
-Apollo 5.0, Ubuntu16.04, UDP communication test program (It's providing on my github: (https://github.com/dooadex/Network/tree/master/UDP_communication))
+Apollo 5.0, Ubuntu16.04, UDP communication test program (It's provided on my github: (https://github.com/dooadex/Network/tree/master/UDP_communication))
 <br><br><br>
 
 ## Download and build
