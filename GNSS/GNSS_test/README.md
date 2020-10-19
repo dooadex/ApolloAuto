@@ -5,7 +5,7 @@
 <h2>Prerequisites</h2>
 Apollo 5.0, Ubuntu16.04
 
-<n2>Configure the command format<h2>
+<n2>Configure the command format</h2>
 Set the command format(getting data format) of Novatel as Binary. (You can refer to (https://docs.novatel.com/oem7/Content/Commands/Command_Formats.htm?TocPath=Commands%7C_____1))
   
 <h2> Edit gnss_conf.pb.txt file. </h2>
