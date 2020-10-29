@@ -9,7 +9,7 @@ You need to install Apollo Kernel and drivers such as ESD CAN.
 Refer to Apollo Auto official site. (https://github.com/ApolloAuto)
 
 
-# How to run
+## How to run
 At ${HOME}
 ```bash
 git clone https://github.com/dooadex/ApolloAuto.git
