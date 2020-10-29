@@ -1,5 +1,5 @@
 
-# Apollo auto gnss test
+# ApolloAuto gnss test
 
 ## Prerequisites
 Apollo 5.0, Ubuntu16.04
