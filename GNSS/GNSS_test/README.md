@@ -30,7 +30,7 @@ For example, device: "/dev/novatel1" -> "/dev/ttyUSB0" like below.
 <img src="https://user-images.githubusercontent.com/72431755/95695758-72b26b80-0c73-11eb-9b67-d7f03226954d.png" width="50%" height="50%"></img>
 
 <br>
-Then comment out thr 'rtk_from' part like below.
+Then comment out the 'rtk_from' part like below.
 
 <img src="https://user-images.githubusercontent.com/72431755/95695773-8231b480-0c73-11eb-94f6-35a2b7455899.png" width="50%" height="50%"></img>
 
