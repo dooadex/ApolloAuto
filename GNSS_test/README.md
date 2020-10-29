@@ -50,11 +50,9 @@ Then comment out the 'rtk_from' part like below.
 ### Run cyber_monitor to check the message
 
 <code><cyber_monitor/code>
-  
 ## How to log the GNSS message
 ### To log
 <code>cyber_recorder record -a</code>
-<br>
+
 ### To play
 <code>cyber_recorder record play -f ~.record</code>
-
