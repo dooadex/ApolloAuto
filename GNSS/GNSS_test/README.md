@@ -1,20 +1,20 @@
 
-<h1>Apollo GNSS test</h1>
+#Apollo GNSS test
 
 
-<h2>Prerequisites</h2>
+##Prerequisites
 Apollo 5.0, Ubuntu16.04
 
 <br>
 
-<h2>Setting</h2>
-<n3>Configure the command format</h3>
+##Setting
+###Configure the command format
 
 Set the command format(getting data format) of Novatel as Binary. (You can refer to (https://docs.novatel.com/oem7/Content/Commands/Command_Formats.htm?TocPath=Commands%7C_____1))
 
 <br>
 
-<h> Edit gnss_conf.pb.txt file. </h3>
+### Edit gnss_conf.pb.txt file.
 
 The location of file is <code>${HOME}/apollo/modules/drivers/gnss/conf</code>
 
@@ -37,25 +37,25 @@ Then comment out the 'rtk_from' part like below.
 <br>
 
 
-<h3>Change access permisstion of USB file</h3>
+###Change access permisstion of USB file
 
 <code>chmod 777 /dev/ttyUSB0</code>
 
 <br>
 
-<h2>Test</h2>
-<h3>Launch gnss.launch file to test</h3>
+##Test
+###Launch gnss.launch file to test
 
 <code>cyber_launch start /modules/drivers/gnss/launch/gnss.launch</code>
 
-<h3>Run cyber_monitor to check the message</h3>
+###Run cyber_monitor to check the message
 
 <code><cyber_monitor/code>
   
-<h2>How to logr the GNSS message/<h2>
-<h3>To log</h3>
+##How to log the GNSS message
+###To log
 <code>cyber_recorder record -a</code>
 <br>
-<h3>To play</h3>
+###To play
 <code>cyber_recorder record play -f ~.record</code>
 
