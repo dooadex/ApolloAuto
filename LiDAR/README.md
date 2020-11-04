@@ -38,6 +38,8 @@ cyber_monitor
 
 <img src="https://user-images.githubusercontent.com/72431755/98070668-e88da980-1ea4-11eb-82f4-98f6e5545126.png" width="50%" height="50%"></img>
 
+<br>
+
 ### Run visualizer
 ```bash
 cyber_vizualizer
@@ -47,6 +49,7 @@ cyber_vizualizer
 
 <img src="https://user-images.githubusercontent.com/72431755/98070812-33a7bc80-1ea5-11eb-80e4-ab0e0761747f.png" width="50%" height="50%"></img>
 
+<br>
 
 ## How to log the GNSS message
 ### To log
