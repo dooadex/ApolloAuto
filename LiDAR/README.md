@@ -7,7 +7,7 @@ Apollo 5.0, Ubuntu16.04
 
 ## Setting
 
-### Edit 'velodne~.pb.txt' file in conf dir.
+### Edit 'velodne~.pb.txt' file in conf directory.
 
 ```txt
 firing_data_port: yours
@@ -15,7 +15,13 @@ use_gps_time: false
 use_poll_sync: false
 ```
 
-### Change the access permission of USB file in /dev dir.
+For example:
+
+<img src="https://user-images.githubusercontent.com/72431755/98071085-eed05580-1ea5-11eb-8443-f3d717e32225.PNG" width="50%" height="50%"></img>
+
+<br>
+
+### Change the access permission of USB file in /dev directory.
 ```bash 
 chmod 777 /dev/ttyUSB0 
 ```
@@ -51,7 +57,7 @@ cyber_vizualizer
 
 <br>
 
-## How to log the GNSS message
+## How to log the LiDAR message
 ### To log
 <code>cyber_recorder record -a</code>
 
