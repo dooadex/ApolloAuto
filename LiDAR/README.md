@@ -1,2 +1,2 @@
-# ApolloAuto Velodyne Lidar Test
+# ApolloAuto Velodyne LiDAR setup and test
 
