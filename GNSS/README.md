@@ -1,5 +1,5 @@
 
-# ApolloAuto GNSS test
+# ApolloAuto GNSS setup and test
 
 ## Prerequisites
 Apollo 5.0, Ubuntu16.04
