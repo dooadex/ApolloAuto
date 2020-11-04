@@ -19,8 +19,6 @@ For example:
 
 <img src="https://user-images.githubusercontent.com/72431755/98071085-eed05580-1ea5-11eb-8443-f3d717e32225.PNG" width="50%" height="50%"></img>
 
-<br>
-
 ### Change the access permission of USB file in /dev directory.
 ```bash 
 chmod 777 /dev/ttyUSB0 
