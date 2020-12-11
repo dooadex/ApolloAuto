@@ -9,7 +9,7 @@ Apollo 5.0, Ubuntu16.04
 ## Setting
 ### Configure the command format
 
-Set the command format(getting data format) of Novatel as Binary. (You can refer to (https://docs.novatel.com/oem7/Content/Commands/Command_Formats.htm?TocPath=Commands%7C_____1))
+Set the command format(getting data format) of Novatel as Binary. (You can refer to (https://docs.novatel.com/oem7/Content/PDFs/OEM7_Commands_Logs_Manual.pdf))
 
 <br>
 
